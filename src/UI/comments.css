@@ -1,0 +1,28 @@
+.comment__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.comment__input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-top: 1px solid lightgray;
+}
+
+.post__btn {
+  width: 80px;
+}
+
+.post__comments {
+  padding: 10px;
+}
+
+.post__comments h5 {
+  font-weight: normal;
+}
+/*# sourceMappingURL=comments.css.map */

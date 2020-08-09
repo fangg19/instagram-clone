@@ -1,0 +1,64 @@
+@media all and (max-width: 400px) {
+  .post {
+    margin: 5px;
+  }
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  // padding: 15px;
+  margin: 25px;
+  /* margin-top: 70px;
+  margin-bottom: 70px; */
+  border: 1px solid lightgray;
+}
+
+.post__header {
+  display: flex;
+  align-items: center;
+}
+
+.post__header button {
+  display: flex;
+  margin-left: auto;
+  margin-right: 5px;
+}
+
+.post__avatar {
+  margin: 10px;
+}
+
+// .post__header__one {
+//   flex: 1;
+// }
+
+.post__image {
+  width: 100%;
+  object-fit: contain;
+  max-width: 800px;
+}
+
+.post__caption {
+  margin: 10px;
+  font-weight: normal;
+  padding-bottom: 3px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.post__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.post__btn {
+  border-radius: 0;
+}
+
+.fire__btn {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}

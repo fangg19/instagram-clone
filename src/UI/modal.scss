@@ -1,0 +1,38 @@
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal__inside {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  height: 500px;
+  width: 400px;
+  border-radius: 5px;
+  outline-style: none;
+}
+
+.modal__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.modal__form input {
+  padding: 15px;
+  width: 250px;
+}
+
+.modal__form button {
+  margin-top: 40px;
+}
+
+.modal__form img {
+  width: 300px;
+  margin-bottom: 60px;
+}

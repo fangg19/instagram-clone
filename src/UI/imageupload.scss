@@ -1,0 +1,40 @@
+.imageupload__container {
+  background-color: #ffffff;
+  position: sticky;
+  bottom: 0;
+  border-top: 1px solid lightgrey;
+  padding-top: 15px;
+}
+
+.imageupload {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+}
+
+.progressbar {
+  height: 30px;
+  width: 100%;
+}
+
+input[type='file'] {
+  display: none;
+  flex: 1;
+}
+
+.caption {
+  padding: 10px;
+  width: 60%;
+  outline: none;
+  border: 1px solid lightgrey;
+  // border-radius: 5px;
+}
+
+.two__buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}

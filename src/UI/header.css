@@ -1,0 +1,31 @@
+.header__logo {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 160px;
+}
+
+.app__header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #ffffff;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 10px;
+}
+
+.app__header button {
+  margin-left: 15px;
+}
+/*# sourceMappingURL=header.css.map */

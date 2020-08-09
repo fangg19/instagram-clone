@@ -1,0 +1,47 @@
+.imageupload {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px;
+  width: 50%;
+  margin: auto;
+}
+
+.progressbar {
+  color: palevioletred;
+  height: 30px;
+  width: 70%;
+}
+
+input[type='file'] {
+  display: none;
+}
+
+.caption {
+  padding: 5px;
+  width: 70%;
+}
+
+.two__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 20px;
+}
+/*# sourceMappingURL=imageupload.css.map */

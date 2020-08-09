@@ -1,0 +1,46 @@
+@import './UI/comments.scss';
+@import './UI/header.scss';
+@import './UI/imageupload.scss';
+@import './UI/modal.scss';
+@import './UI/post.scss';
+
+@media all and (max-width: 600px) {
+  .post {
+    margin: 5px;
+  }
+
+  .imageupload {
+    width: 100%;
+  }
+
+  .caption {
+    width: 80%;
+  }
+
+  .app__header {
+    padding: 10px;
+    margin-bottom: 5px;
+    img {
+      width: 120px;
+    }
+  }
+}
+
+* {
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.App {
+  background-color: #ffffff;
+}
+
+.app__notlogged {
+  background-color: #ffffff;
+  position: sticky;
+  bottom: 0;
+  border-top: 1px solid lightgrey;
+  padding: 15px;
+  color: #f50057;
+  text-align: center;
+}
